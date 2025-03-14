@@ -11,7 +11,7 @@ export default function App() {
       ListHeaderComponent={()=>(
         <>
           <Text style={styles.header_text} >Store</Text>
-          <TextInput style={styles.textInput} placeholder='Ara...'/>
+          <TextInput style={styles.textInput} placeholder='Search...'/>
         </>
       )}
         data={data}
